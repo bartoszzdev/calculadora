@@ -1,0 +1,19 @@
+#calcular {
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #FFF;
+    background: #c0392b
+}
+
+#calcular:hover {
+    transform: scale(1.2)
+}
+

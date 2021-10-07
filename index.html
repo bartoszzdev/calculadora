@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/result.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/components/operador.css">
+    <link rel="stylesheet" href="css/components/label.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1 class="title">Calculadora</h1>
+
+        <form id="operator">
+            <label for="first-num" class="number-subtitle">Digite o primeiro número:</label>
+            <input id="first-num" class="term" type="number">
+
+            <div id="operadores">
+                <input type="button" id="somar" class="operador" value="+" name="operador">
+                <input type="button" id="subtrair" class="operador" value="-" name="operador">
+                <input type="button" id="multiplicar" class="operador" value="×" name="operador">
+                <input type="button" id="dividir" class="operador" value="÷" name="operador">
+            </div>
+
+            <label for="second-num" class="number-subtitle">Digite o segundo número:</label>
+            <input id="second-num" class="term" type="number">
+
+            <button id="calcular" type="button">Calcular</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
