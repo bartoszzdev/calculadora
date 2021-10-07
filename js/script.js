@@ -71,5 +71,3 @@ botao.onclick = function() {
         document.getElementById("second-num").value = ""
 }
 
-//https://www.americanas.com.br/produto/1676275266?sellerId=33300177000000&opn=YSMESP&cor=Black&tamanho=900%26400mm
-
