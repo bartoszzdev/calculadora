@@ -45,25 +45,25 @@ botao.onclick = function() {
         } else if(operacaoSoma.classList.contains("escolhido")) {
 
             var resultadoFinal = termo1 + termo2
-            resultado.innerHTML = termo1 + " + " + termo2 + " = " + resultadoFinal.toLocaleString()
+            resultado.innerHTML = termo1.toLocaleString() + " + " + termo2.toLocaleString() + " = " + resultadoFinal.toLocaleString()
             operacaoSoma.classList.remove("escolhido")
 
         } else if(operacaoSubt.classList.contains("escolhido")) {
 
             var resultadoFinal = termo1 - termo2
-            resultado.innerHTML = termo1 + " - " + termo2 + " = " + resultadoFinal.toLocaleString()
+            resultado.innerHTML = termo1.toLocaleString() + " - " + termo2.toLocaleString() + " = " + resultadoFinal.toLocaleString()
             operacaoSubt.classList.remove("escolhido")
 
         } else if(operacaoMult.classList.contains("escolhido")) {
 
             var resultadoFinal = termo1 * termo2
-            resultado.innerHTML = termo1 + " × " + termo2 + " = " + resultadoFinal.toLocaleString()
+            resultado.innerHTML = termo1.toLocaleString() + " × " + termo2.toLocaleString() + " = " + resultadoFinal.toLocaleString()
             operacaoMult.classList.remove("escolhido")
 
         } else if(operacaoDivd.classList.contains("escolhido")) {
             
             var resultadoFinal = termo1 / termo2
-            resultado.innerHTML = termo1 + " ÷ " + termo2 + " = " + resultadoFinal.toLocaleString()
+            resultado.innerHTML = termo1.toLocaleString() + " ÷ " + termo2.toLocaleString() + " = " + resultadoFinal.toLocaleString()
             operacaoDivd.classList.remove("escolhido")
         }
 
