@@ -105,6 +105,10 @@ html, body {
     }
 
     .operador {
-        margin: 50px 12px
+        margin: 25px 12px
+    }
+
+    #calcular {
+        margin-top: 30px
     }
 }
