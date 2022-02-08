@@ -101,7 +101,8 @@ html, body {
 
 @media screen and (max-width: 500px) {
     .title {
-        font-size: 55px
+        font-size: 55px;
+        margin: 15px
     }
 
     .operador {
