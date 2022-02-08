@@ -84,15 +84,27 @@ html, body {
     cursor: pointer;
     margin-top: 50px;
     color: #FFF;
-    background: #c0392b
+    background: #c0392b;
+    transition: transform 0.8s
 }
 
 #calcular:hover {
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
 
 #result {
     padding: 35px;
     font-size: 28px;
     font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 55px
+    }
+
+    .operador {
+        margin: 50px 12px
+    }
 }
